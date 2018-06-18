@@ -1,0 +1,16 @@
+SDK26 => LatestOS
+SDK27 => LatestOS
+FaceWithPin =>Face
+FaceWithElse => Face
+Fingerprint => StrongLock
+Face => StrongLock
+PasswordAlpha => Password
+PasswordAlphaNum => Password
+Password => MediumLock
+Pin => MediumLock
+Pattern => MediumLock
+NoLock => WeakLock
+MoreThan25 => TooManyPermissions
+Bootloader ^ De_eloperOptions ^ Root => Ad_anced
+LatestOS ^ WeakLock => Risky
+Ad_anced => Risky
